@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pantallas_Sistema_facturación.Presentacion
+namespace Pantallas_Sistema_facturación
 {
-    public partial class FrmPrincipal : Form
+    public partial class FrmClientes : Form
     {
-        public FrmPrincipal()
+        public FrmClientes()
         {
             InitializeComponent();
-        }
-
-        private void FrmPrincipal_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

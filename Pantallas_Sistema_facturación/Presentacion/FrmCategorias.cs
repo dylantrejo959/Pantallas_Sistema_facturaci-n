@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Pantallas_Sistema_facturación.Presentacion
 {
-    public partial class FrmPrincipal : Form
+    public partial class FrmCategorias : Form
     {
-        public FrmPrincipal()
+        public FrmCategorias()
         {
             InitializeComponent();
-        }
-
-        private void FrmPrincipal_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
