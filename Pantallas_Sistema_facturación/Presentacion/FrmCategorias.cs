@@ -14,7 +14,6 @@ namespace Pantallas_Sistema_facturación.Presentacion
     {
         public FrmCategorias()
         {
-            InitializeComponent();
         }
     }
 }
