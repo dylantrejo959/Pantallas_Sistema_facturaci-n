@@ -16,5 +16,22 @@ namespace Pantallas_Sistema_facturación.Presentacion
         {
             InitializeComponent();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnRetroceder_Click(object sender, EventArgs e)
+        {
+            FrmPrincipal principal = new FrmPrincipal();
+            principal.Show();
+            this.Hide();
+        }
+
+        private void FrmSeguridad_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

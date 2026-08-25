@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Pantallas_Sistema_facturación.Presentacion;
 
 namespace Pantallas_Sistema_facturación
 {
@@ -15,6 +16,23 @@ namespace Pantallas_Sistema_facturación
         public FrmProductos()
         {
             InitializeComponent();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnRetroceder_Click(object sender, EventArgs e)
+        {
+            FrmPrincipal principal = new FrmPrincipal();
+            principal.Show();
+            this.Hide();
+        }
+
+        private void FrmProductos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
