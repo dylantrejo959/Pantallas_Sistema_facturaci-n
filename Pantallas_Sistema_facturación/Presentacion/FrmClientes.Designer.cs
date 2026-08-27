@@ -51,7 +51,11 @@
             this.btnRetroceder.Size = new System.Drawing.Size(100, 23);
             this.btnRetroceder.TabIndex = 0;
             this.btnRetroceder.Text = "Retroceder";
-            this.btnRetroceder.UseVisualStyleBackColor = true;
+            this.btnRetroceder.BackColor = System.Drawing.Color.FromArgb(0, 51, 102);
+            this.btnRetroceder.FlatAppearance.BorderSize = 0;
+            this.btnRetroceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRetroceder.ForeColor = System.Drawing.Color.White;
+            this.btnRetroceder.UseVisualStyleBackColor = false;
             this.btnRetroceder.Click += new System.EventHandler(this.btnRetroceder_Click);
             // 
             // btnSalir
@@ -61,7 +65,11 @@
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 1;
             this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(0, 51, 102);
+            this.btnSalir.FlatAppearance.BorderSize = 0;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.ForeColor = System.Drawing.Color.White;
+            this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // lblRegistro
@@ -72,6 +80,7 @@
             this.lblRegistro.Size = new System.Drawing.Size(170, 13);
             this.lblRegistro.TabIndex = 2;
             this.lblRegistro.Text = "NUEVO REGISTRO DE CLIENTE";
+            this.lblRegistro.ForeColor = System.Drawing.Color.Red;
             // 
             // lblNombre
             // 
@@ -125,7 +134,11 @@
             this.btnActualizar.Size = new System.Drawing.Size(100, 23);
             this.btnActualizar.TabIndex = 8;
             this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(0, 51, 102);
+            this.btnActualizar.FlatAppearance.BorderSize = 0;
+            this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActualizar.ForeColor = System.Drawing.Color.White;
+            this.btnActualizar.UseVisualStyleBackColor = false;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // txtNombre
@@ -167,6 +180,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(245, 245, 245);
             this.ClientSize = new System.Drawing.Size(704, 450);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtDireccion);
