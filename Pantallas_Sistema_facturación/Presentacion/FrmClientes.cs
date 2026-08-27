@@ -34,5 +34,14 @@ namespace Pantallas_Sistema_facturación
         {
 
         }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            if (txtNombre.Text == "" || txDocumento.Text == "" || txtDireccion.Text == "" || txtTelefono.Text == "" || txtEmail.Text == "")
+            {
+                MessageBox.Show("Verifique los campos faltantes.");
+                return;
+            }
+        }
     }
 }

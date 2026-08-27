@@ -179,6 +179,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Database\" />
     <Folder Include="Datos\" />
     <Folder Include="Logica\" />
   </ItemGroup>

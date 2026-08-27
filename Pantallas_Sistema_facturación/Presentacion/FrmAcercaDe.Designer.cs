@@ -60,6 +60,7 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnRetroceder);
             this.Name = "FrmAcercaDe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmAcercaDe";
             this.Load += new System.EventHandler(this.FrmAcercaDe_Load);
             this.ResumeLayout(false);

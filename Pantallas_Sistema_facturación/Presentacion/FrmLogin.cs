@@ -35,6 +35,12 @@ namespace Pantallas_Sistema_facturación
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
+            if (txtUsuario.Text == "" || txtContraseña.Text == "")
+            {
+                MessageBox.Show("Debe ingresar usuario y contraseña.");
+                return;
+            }
+
             FrmPrincipal principal = new FrmPrincipal();
             principal.Show();
             this.Hide();
